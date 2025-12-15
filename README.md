@@ -29,20 +29,19 @@ El proyecto se estructura en un pipeline secuencial:
 ## 📸 Capturas
 
 ### 1. Rendimiento del Modelo Estocástico (Arquitectura vs PCA)
-*(Muestra cómo diferentes configuraciones de neuronas y varianza PCA afectan la precisión)*
-![Gráfico de Barras Rendimiento]([Aquí va la captura de "grafico_rendimiento_modelos.png" generado en el bloque maestro])
+<img width="715" height="407" alt="image" src="https://github.com/user-attachments/assets/8d5aad0e-9ec5-44bb-a6a9-0e8ecf1624f6" />
+<img width="732" height="421" alt="image" src="https://github.com/user-attachments/assets/d988e235-96d6-46ba-8adf-ba99449cb862" />
+<img width="845" height="549" alt="image" src="https://github.com/user-attachments/assets/c38ecc28-be3a-464e-b34b-6e991797707d" />
+
 
 ### 2. Estabilidad del PCA
-*(Boxplot que muestra la variabilidad de la precisión según la compresión de datos)*
-![Boxplot PCA]([Aquí va la captura de "grafico_estabilidad_pca.png"])
+<img width="800" height="600" alt="estabilidad_pca" src="https://github.com/user-attachments/assets/73a3a9e9-7e3a-459a-904e-4ef055edef62" />
 
 ### 3. Matriz de Confusión
-*(Análisis de errores por clase: Bajo Peso, Normal, Sobrepeso, Obesidad)*
-![Matriz Confusión]([Aquí va la captura de tu matriz de confusión])
+<img width="783" height="564" alt="image" src="https://github.com/user-attachments/assets/2b7e14e8-66ba-4e37-9ada-86481417c638" />
 
 ### 4. Tracking en MLflow
-*(Vista del dashboard de MLflow registrando los experimentos)*
-![Dashboard MLflow]([Aquí va una captura de pantalla de la interfaz de MLflow o la carpeta de artefactos])
+<img width="2308" height="623" alt="image" src="https://github.com/user-attachments/assets/01b05866-55ee-46ee-96ab-d7db471b3e05" />
 
 ## 🚀 Qué lograste
 * Implementación exitosa de un **Pipeline de Sklearn** que integra preprocesamiento, reducción de dimensiones y predicción en un solo objeto serializable.
