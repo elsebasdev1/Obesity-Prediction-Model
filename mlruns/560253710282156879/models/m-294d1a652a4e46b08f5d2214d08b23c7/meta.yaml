@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/sebas/Documents/Ciclo%20Computacion/Materias%20-%20Ciclo%206/3.%20INTELIGENCIA%20ARTIFICIAL/practica04-PCA_Fine-Tuning/mlruns/560253710282156879/models/m-294d1a652a4e46b08f5d2214d08b23c7/artifacts
+creation_timestamp: 1765492103124
+experiment_id: '560253710282156879'
+last_updated_timestamp: 1765492110458
+model_id: m-294d1a652a4e46b08f5d2214d08b23c7
+model_type: null
+name: modelo_obesidad_pca
+source_run_id: 9d1d34b3204947bf854773f42972fd7f
+status: 2
+status_message: null
