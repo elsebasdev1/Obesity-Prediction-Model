@@ -42,26 +42,3 @@ El proyecto se estructura en un pipeline secuencial:
 
 ### 4. Tracking en MLflow
 <img width="2308" height="623" alt="image" src="https://github.com/user-attachments/assets/01b05866-55ee-46ee-96ab-d7db471b3e05" />
-
-## 🚀 Qué lograste
-* Implementación exitosa de un **Pipeline de Sklearn** que integra preprocesamiento, reducción de dimensiones y predicción en un solo objeto serializable.
-* Análisis profundo de la estructura de los datos: Se descubrió una **baja multicolinealidad**, demostrando que el PCA requiere retener casi todas las componentes (15 de 15) para explicar el 95% de la varianza.
-* Comparativa técnica: Se evidenció que para este dataset tabular específico, el modelo de ensamblaje (Random Forest) supera en precisión (~90%) a la Red Neuronal con PCA (~76%), debido a la naturaleza categórica de las variables.
-* Documentación automática de experimentos utilizando **MLflow**.
-
-## 💻 Código (Snippet del Pipeline)
-
-```python
-# Definición del Pipeline Estocástico para MLOps
-pipeline = Pipeline([
-    ('scaler', StandardScaler()),       # Estandarización obligatoria para PCA
-    ('pca', PCA()),                     # Reducción de dimensionalidad
-    ('nn', MLPClassifier(max_iter=500)) # Modelo Estocástico
-])
-
-# Espacio de búsqueda para Fine-Tuning
-param_grid = {
-    'pca__n_components': [0.90, 0.95],          # Varianza explicada
-    'nn__hidden_layer_sizes': [(50,), (100,)],  # Arquitecturas
-    'nn__activation': ['tanh', 'relu']
-}
